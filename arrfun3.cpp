@@ -23,12 +23,14 @@ int main()
                 continue;
             cout << "Bad input; Please enter a number: ";
         }
-        cout << "Done.\n";
-        cin.get();
-        cin.get();
-        system("pause");
-        return 0;
+        revalue(factor, properties, size);
+        show_array(properties, size);
     }
+    cout << "Done.\n";
+    cin.get();
+    cin.get();
+    system("pause");
+    return 0;
 }
 
 int fill_array(double ar[], int limit)
