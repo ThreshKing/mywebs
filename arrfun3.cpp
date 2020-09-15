@@ -29,7 +29,7 @@ int main()
     cout << "Done.\n";
     cin.get();
     cin.get();
-    system("pause");
+    
     return 0;
 }
 
