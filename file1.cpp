@@ -1,6 +1,9 @@
 #include<iostream>
+#include<cmath>
 #include"coordin.h"
+#include"file2.cpp"
 using namespace std;
+
 
 int main()
 {
@@ -15,5 +18,6 @@ int main()
         cout << "Next two numbers (q to quit): ";
     }
     cout << "Bye!\n";
+    system("pause");
     return 0;
 }
